@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.headerleft{
+    width: 30px;
+    display: flex;
+}
+.headerleft input{
+    border: 2px solid black;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 30px;
+    height: 30px;
+}
+.headerleft img{
+    filter: invert(1);
+}
+
+.headerright{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.headerright img{
+    width: 30px;
+    border-radius: 30px;
+}
